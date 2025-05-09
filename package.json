@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
- "scripts": {
+  "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://hamid-javed.github.io/Intern-Design",
+  "homepage": "https://hamid-javed.github.io/growvy",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.5",
     "react": "^19.1.0",

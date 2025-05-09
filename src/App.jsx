@@ -8,7 +8,7 @@ import Success from "./pages/Success";
 
 function App() {
   return (
-    <Router basename="/Intern-Design">
+    <Router basename="/growvy">
       <div className="px-6 md:px-16 lg:px-28">
         <Navbar />
         <Routes>

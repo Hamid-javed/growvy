@@ -5,16 +5,16 @@ const Navbar = () => {
         <a href="/">Home</a>
       </li>
       <li className="underline">
-        <a href="/Intern-Design/jobs">Jobs</a>
+        <a href="/jobs">Jobs</a>
       </li>
       <li className="underline">
-        <a href="/Intern-Design/success">Success</a>
+        <a href="/success">Success</a>
       </li>
       <li className="underline">
-        <a href="/Intern-Design/services">Services</a>
+        <a href="/services">Services</a>
       </li>
       <li className="underline">
-        <a href="/Intern-Design/pricing">Pricing</a>
+        <a href="/pricing">Pricing</a>
       </li>
     </ul>
   );
