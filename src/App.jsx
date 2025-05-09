@@ -12,11 +12,11 @@ function App() {
       <div className="px-6 md:px-16 lg:px-28">
         <Navbar />
         <Routes>
-          <Route path="/growvy/" element={<Home />} />
-          <Route path="/growvy/services" element={<ServicesSection />} />
-          <Route path="/growvy/jobs" element={<JobsSection />} />
-          <Route path="/growvy/pricing" element={<Pricing />} />
-          <Route path="/growvy/success" element={<Success />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<ServicesSection />} />
+          <Route path="/jobs" element={<JobsSection />} />
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/success" element={<Success />} />
         </Routes>
       </div>
     </Router>
