@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import ServicesSection from "./pages/Services";
@@ -8,7 +8,7 @@ import Success from "./pages/Success";
 
 function App() {
   return (
-    <Router basename="/growvy">
+    <Router>
       <div className="px-6 md:px-16 lg:px-28">
         <Navbar />
         <Routes>
