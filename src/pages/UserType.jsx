@@ -5,25 +5,25 @@ const userTypes = [
     title: "I’m a Job Seeker!",
     desc: "Looking for job according to my skills and requirements.",
     button: "Jobs",
-    image: "/img2.png", // Update with your image paths
+    image: "img2.png",
   },
   {
     title: "I’m an Employer!",
     desc: "Looking for talented candidates for my company.",
     button: "Post a Job",
-    image: "/img3.png",
+    image: "img3.png",
   },
   {
     title: "I’m a E-commerce Store!",
     desc: "Looking for potential sales data for sales campaign.",
     button: "Sales Data",
-    image: "/img4.png",
+    image: "img4.png",
   },
   {
     title: "I’m Business!",
     desc: "Looking for CRM or Data resources to boost my business.",
     button: "Business Plans",
-    image: "/img5.png",
+    image: "img5.png",
   },
 ];
 

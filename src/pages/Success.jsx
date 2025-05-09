@@ -4,7 +4,7 @@ import JobSeekerCommunityV2Section from "../components/pricing/Review";
 const Success = () => {
   return (
     <>
-      <div className="py-20">
+      <div className="pb-20">
         {" "}
         <div
           className="bg-[#EBF9EF] text-center px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-20 sm:pb-24 md:pb-28
