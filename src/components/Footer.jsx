@@ -121,8 +121,8 @@ const GrowvyFooterSection = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 xl:col-span-2">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 xl:col-span-2 ">
+            <div className="md:grid md:grid-cols-2 md:gap-8 ">
               <div>
                 <h3 className="text-sm font-semibold text-gray-500 tracking-wider uppercase">
                   Company

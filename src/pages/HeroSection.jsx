@@ -9,7 +9,7 @@ const HeroSection = () => {
             <span className="text-green-600">business efficiency</span>
           </h1>
 
-          <h2 className="text-4xl sm:text-5xl font-semibold mt-2 flex gap-3 items-center">
+          <h2 className="text-4xl sm:text-5xl font-semibold mt-2 flex gap-3 items-center md:justify-start justify-center">
             with{" "}
             <span className="block text-4xl sm:text-5xl text-green-600 font-extrabold">
               Growvy
