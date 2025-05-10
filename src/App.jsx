@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import ServicesSection from "./pages/Services";
@@ -9,8 +9,8 @@ import Success from "./pages/Success";
 function App() {
   return (
     <Router>
-      <div className="px-6 md:px-16 lg:px-28">
-        <Navbar />
+      <Navbar />
+      <div className="bg-gradient-to-br from-white to-green-100">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<ServicesSection />} />

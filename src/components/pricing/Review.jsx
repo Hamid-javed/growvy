@@ -47,7 +47,7 @@ const paginationDots = [
 
 const JobSeekerCommunityV2Section = () => {
   return (
-    <div className="bg-white py-12 sm:py-16 px-4 sm:px-6 lg:px-8 my-10">
+    <div className=" py-12 sm:py-16 px-4 sm:px-6 lg:px-8 my-10">
       <div className="max-w-3xl mx-auto text-center">
         <h1 className="text-3xl sm:text-4xl md:text-[46px] font-bold text-black mb-5 leading-tight">
           Join Growvy's 50M+ Job Seeker <br className="hidden sm:inline" />

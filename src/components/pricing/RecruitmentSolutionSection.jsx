@@ -59,13 +59,13 @@ const RecruitmentSolutionSection = () => {
   return (
     <>
       {" "}
-      <div className="bg-white py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
+      <div className=" py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
           <div className="flex justify-center mb-6 sm:mb-8">
             <img
               src="img16.png"
               alt="Recruitment process illustration"
-              className="h-24 sm:h-32 w-auto object-contain"
+              className="h-24 sm:h-32 w-auto object-contain bg-transparent mix-blend-multiply"
             />
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold text-black mb-4">
@@ -87,7 +87,7 @@ const RecruitmentSolutionSection = () => {
           {plansData.map((plan) => (
             <div
               key={plan.id}
-              className={`bg-white rounded-3xl border-2 ${plan.borderColor} flex flex-col shadow-lg overflow-hidden`}
+              className={` rounded-3xl border-2 ${plan.borderColor} flex flex-col shadow-lg overflow-hidden`}
             >
               <div className="p-5 sm:p-6 flex-grow flex flex-col">
                 <h3 className="text-xl font-bold text-black mb-3">
@@ -138,13 +138,13 @@ const RecruitmentSolutionSection = () => {
           ))}
         </div>
       </div>
-      <div className="bg-white py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
+      <div className=" py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
           <div className="flex justify-center mb-6 sm:mb-8">
             <img
               src="img17.png"
               alt="Recruitment process illustration"
-              className="h-24 sm:h-32 w-auto object-contain"
+              className="h-24 sm:h-32 w-auto object-contain bg-transparent mix-blend-multiply"
             />
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold text-black mb-4">
@@ -166,7 +166,7 @@ const RecruitmentSolutionSection = () => {
           {plansData.map((plan) => (
             <div
               key={plan.id}
-              className={`bg-white rounded-3xl border-2 ${plan.borderColor} flex flex-col shadow-lg overflow-hidden`}
+              className={` rounded-3xl border-2 ${plan.borderColor} flex flex-col shadow-lg overflow-hidden`}
             >
               <div className="p-5 sm:p-6 flex-grow flex flex-col">
                 <h3 className="text-xl font-bold text-black mb-3">
@@ -217,13 +217,13 @@ const RecruitmentSolutionSection = () => {
           ))}
         </div>
       </div>{" "}
-      <div className="bg-white py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
+      <div className=" py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
           <div className="flex justify-center mb-6 sm:mb-8">
             <img
               src="img18.png"
               alt="Recruitment process illustration"
-              className="h-24 sm:h-32 w-auto object-contain"
+              className="h-24 sm:h-32 w-auto object-contain bg-transparent mix-blend-multiply"
             />
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold text-black mb-4">
@@ -245,7 +245,7 @@ const RecruitmentSolutionSection = () => {
           {plansData.map((plan) => (
             <div
               key={plan.id}
-              className={`bg-white rounded-3xl border-2 ${plan.borderColor} flex flex-col shadow-lg overflow-hidden`}
+              className={` rounded-3xl border-2 ${plan.borderColor} flex flex-col shadow-lg overflow-hidden`}
             >
               <div className="p-5 sm:p-6 flex-grow flex flex-col">
                 <h3 className="text-xl font-bold text-black mb-3">

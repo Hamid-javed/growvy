@@ -1,27 +1,34 @@
 const CallToAction = () => {
   return (
-    <div className="w-full p-6 bg-white rounded-lg flex flex-col md:flex-row items-center justify-between">
-      <div className="w-full md:w-1/2 mb-6 md:mb-0">
-        <img
-          src="img7.png"
-          alt="Person working on laptop"
-          className="w-full h-auto object-cover"
-        />
-      </div>
+    <section className=" py-12 px-6 sm:px-10 lg:px-20 ">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
+        {/* Image Section */}
+        <div className="w-full md:w-1/2">
+          <img
+            src="img7.png"
+            alt="Person working on laptop"
+            className="w-full h-auto object-contain-transparent mix-blend-multiply"
+          />
+        </div>
 
-      <div className="w-full md:w-1/2 md:pl-8 flex flex-col items-center">
-        <button className="bg-green-600 hover:bg-[#00b048] cursor-pointer text-white font-medium px-8 py-3 rounded-full text-lg h-auto mb-4">
-          Schedule Call Now
-        </button>
-
-        <div className="text-gray-700">
-          <p className="text-lg font-medium">Join over 10k users worldwide.</p>
-          <p className="text-lg font-medium">
-            Start scheduling in less than 1 minutes.
+        {/* CTA Text Section */}
+        <div className="w-full md:w-1/2 text-center md:text-left">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+            Ready to Grow with Us?
+          </h2>
+          <p className="text-gray-700 text-base sm:text-lg mb-6">
+            Join over{" "}
+            <span className="font-semibold text-green-600">10,000+</span> users
+            worldwide and start scheduling calls with ease. It takes less than a
+            minute to begin!
           </p>
+
+          <button className="bg-green-600 hover:bg-green-700 text-white font-semibold text-base sm:text-lg px-8 py-3 rounded-full shadow-md transition-all duration-300">
+            Schedule Call Now
+          </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

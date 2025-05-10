@@ -1,38 +1,43 @@
 const HeroSection = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-12 py-16 gap-10">
-      <div className="text-center md:text-left flex-1">
-        <div>
-          <span className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight block">
-            Maximize
-            <br /> business efficiency
-          </span>
-          <span className="text-2xl sm:text-3xl text-green-600 pl-20 font-bold block">
-            with
-          </span>
-          <span className="text-green-600 text-4xl sm:text-6xl font-bold block">
-            Growvy
-          </span>
+    <section className=" py-20 md:px-16 lg:px-28">
+      <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-12">
+        {/* Text Content */}
+        <div className="flex-1 text-center md:text-left">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-gray-900">
+            Maximize <br className="hidden sm:block" />
+            <span className="text-green-600">business efficiency</span>
+          </h1>
+
+          <h2 className="text-4xl sm:text-5xl font-semibold mt-2 flex gap-3 items-center">
+            with{" "}
+            <span className="block text-4xl sm:text-5xl text-green-600 font-extrabold">
+              Growvy
+            </span>
+          </h2>
+
+          <p className="mt-6 text-gray-600 text-base sm:text-lg max-w-lg mx-auto md:mx-0">
+            Scale your company with tailored strategies, market insights, and
+            expert consulting
+          </p>
+
+          <div className="mt-8">
+            <button className="bg-green-600 hover:bg-green-700 transition px-8 py-3 rounded-full text-white text-lg font-semibold shadow-lg">
+              Start Today
+            </button>
+          </div>
         </div>
 
-        <p className="my-2 text-sm sm:text-base md:text-lg font-medium max-w-md mx-auto md:mx-0">
-          Scale your company with tailored strategies, market insights, and
-          expert consulting
-        </p>
-
-        <button className="mt-4 px-8 py-3 text-base sm:text-lg bg-green-600 text-white rounded-full font-semibold">
-          Start Today
-        </button>
+        {/* Image Content */}
+        <div className="flex-1">
+          <img
+            src="img1.png"
+            alt="Growvy Hero"
+            className="w-full max-w-md mx-auto md:mx-0 object-contain bg-transparent mix-blend-multiply animate-fade-in"
+          />
+        </div>
       </div>
-
-      <div className="flex-1">
-        <img
-          className="w-full max-w-[500px] mx-auto object-contain"
-          src="img1.png"
-          alt="Hero"
-        />
-      </div>
-    </div>
+    </section>
   );
 };
 

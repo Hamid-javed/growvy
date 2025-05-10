@@ -17,14 +17,11 @@ const jobCategories = [
 const JobsSection = () => {
   return (
     <>
-      <div className="bg-white font-sans">
+      <div className=" font-sans">
         {" "}
         <div
-          className="bg-[#EBF9EF] text-center px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-24 sm:pb-28
-                      rounded-bl-[80px] rounded-br-[80px]
-                      md:rounded-bl-[120px] md:rounded-br-[120px]
-                      lg:rounded-bl-[150px] lg:rounded-br-[150px]
-                      "
+          className="bg-[#def8e5] text-center px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-24 sm:pb-28 rounded-bl-[80px] rounded-br-[80px] md:rounded-bl-[120px] md:rounded-br-[120px]
+lg:rounded-bl-[150px] lg:rounded-br-[150px]"
         >
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-black mb-4">
             Jobs

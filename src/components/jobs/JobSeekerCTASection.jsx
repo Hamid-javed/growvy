@@ -1,6 +1,6 @@
 const JobSeekerCTASection = () => {
   return (
-    <div className="bg-white py-12 px-6 sm:px-10 lg:px-16">
+    <div className="py-12 px-6 sm:px-10 lg:px-16">
       <div className=" flex flex-col md:flex-row items-center justify-between gap-10 md:gap-12 lg:gap-16">
         <div className="md:w-1/2 text-left">
           <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-bold text-black mb-3 sm:mb-4 leading-tight">
@@ -22,7 +22,7 @@ const JobSeekerCTASection = () => {
           <img
             src="img2.png"
             alt="Illustration of a sailor looking through a telescope, representing a job seeker"
-            className="w-auto h-48 sm:h-56 md:h-64 lg:h-[280px] object-contain"
+            className="w-auto h-48 sm:h-56 md:h-64 lg:h-[280px] object-contain bg-transparent mix-blend-multiply"
           />
         </div>
       </div>

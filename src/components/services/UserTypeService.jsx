@@ -40,7 +40,7 @@ const UserTypesSection = () => {
           <img
             src={item.image}
             alt={item.title}
-            className="w-40 md:w-[500px] object-contain"
+            className="w-40 md:w-[500px] object-contain bg-transparent mix-blend-multiply"
           />
 
           <div className={`text-center md:text-left max-w-md`}>

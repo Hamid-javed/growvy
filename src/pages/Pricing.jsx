@@ -5,10 +5,10 @@ import RecruitmentSolutionSection from "../components/pricing/RecruitmentSolutio
 export const Pricing = () => {
   return (
     <>
-      <div className="bg-white">
+      <div className="">
         {" "}
         <div
-          className="bg-[#EBF9EF] text-center px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-20 sm:pb-24 md:pb-28
+          className="bg-[#def8e5] text-center px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-20 sm:pb-24 md:pb-28
                    rounded-bl-[80px] rounded-br-[80px]
                    sm:rounded-bl-[100px] sm:rounded-br-[100px]
                    md:rounded-bl-[150px] md:rounded-br-[150px]
