@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Taking pull
+        run: actions/checout@v3
+    
       - name: Greetings
         run: echo "Welcome to my world"
   
