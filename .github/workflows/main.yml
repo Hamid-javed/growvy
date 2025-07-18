@@ -10,8 +10,8 @@ jobs:
 
     steps:
       - name: Taking pull
-        run: actions/checkout@v3
-    
+        uses: actions/checkout@v3
+        
       - name: Greetings
         run: echo "Welcome to my world"
   
