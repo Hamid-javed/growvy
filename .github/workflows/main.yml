@@ -8,6 +8,11 @@ jobs:
   app-build:
     runs-on: ubuntu-latest
 
+    concurrency:
+      group: Buid
+      cancel-in-progress: true
+    
+
     steps:
       - name: checkout repo
         uses: actions/checkout@v4.2.2
