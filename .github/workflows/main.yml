@@ -1,23 +1,32 @@
-name: Make project build
+name: Make Build
 
 on:
   push:
     branches: [ main ]
 
 jobs:
-  Build-My-App:
+  app-build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4.2.2
+      - name: checkout repo
+        uses: actions/checkout@v4.2.2
+        
+      - name: instaling Node
+        uses: actions/setup-node@v3.9.1
+        with:
+          node-version: 22.x
+          cache: 'npm'
 
-      - name: install-node
-        uses: actions/setup-node@3.9.1
-
-      - name: install-dependences
+      - name: Install Dependences
         run: npm install
 
-      - name: making-build
+      - name: Make build
         run: npm run build
 
-      - run: echo "Build created"
+      - name: save buid in artifacts
+        uses: actions/upload-artifact@v4.6.2
+        with:
+           name: buid
+           path: out/
+              
