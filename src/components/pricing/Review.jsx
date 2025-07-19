@@ -1,6 +1,6 @@
 import React from "react";
 
-// Placeholder Star SVG (Filled Yellow)
+// Placeholder Star SVG (FilYellow)
 const StarIcon = ({ className = "w-5 h-5 sm:w-6 sm:h-6 text-yellow-400" }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
